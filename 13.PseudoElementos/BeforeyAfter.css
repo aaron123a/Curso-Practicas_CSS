@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #9EC8B9;
+}
+.card{
+    width: 300px;
+    padding: 20px 20px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: -20px -20px #5c83748a;
+}
+.card_title{
+    padding-bottom: 10px;
+    font-weight: 700;
+    border-bottom: 4px solid #5C8374;
+    margin-bottom: 15px;
+}
+.card_text{
+    margin-bottom: 10px;
+}
+.card_text::before{
+    content: "ESTOY AQUI ANTES ";
+    color: white;
+    background: darkmagenta;
+}
+.card_text::after{
+    content: " ESTOY AQUI DESPUES";
+    color: black;
+    background: yellow;
+}
+ul{
+    counter-reset: contador;
+}
+li{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+li::before{
+    content: counter(contador);
+    counter-increment: contador;
+    background: salmon;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 4px;
+
+}

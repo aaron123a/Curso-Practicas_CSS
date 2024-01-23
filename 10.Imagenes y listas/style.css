@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista{
+    background-color: darksalmon;
+}
+ul{
+    margin: 30px 0;
+    /* list-style-type: decimal; */
+    list-style-image: url(/img/left-arrow-circle-solid-24.png);
+    list-style-position: inside;
+}
+ol{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.lista{
+    font-size: 24px;
+}
+figure{
+    width: 200px;
+    height: 400px;
+    background-color: crimson;
+    margin: 30px auto;
+    box-shadow: 0 0 5px;
+}
+.img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/dinos.png);
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    box-shadow: 5px 5px 10px 2px;
+    width: 50%;
+    height: 300px;
+    background-color: hsl(220, 50%, 50%);
+    background-image: url(/img/cloud-solid-48.png);
+    background-repeat: repeat-x;
+    /* background-repeat: repeat-y;
+    background-repeat: no-repeat; */
+    margin: 30px auto;
+}
+.boton{
+    background-color: #7366A7;
+    border: solid 4px rgba(0, 0, 0, 0);
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    padding: 10px;
+    margin: 70px auto;
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+}
+.boton:hover{
+    transition-duration: 0.5s;
+    background-color: #7366A7;
+    border: solid 4px #614faa;
+    color: white;
+}
+.atachment{
+    margin-top: 40px;
+    width: 40%;
+    background-image: url(/img/palitoDepecao.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.title{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.fixed{
+    background-attachment: fixed;    
+}
+.space{
+    height: 3000px;
+}

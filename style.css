@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    /* outline: 2px solid black; */
+    box-sizing: border-box;
+    
+}
+:root{
+    --sombra: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container__title{
+    margin: 30px 0;
+    font-size: 4rem;
+}
+.container{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 0.1px;
+}
+.container__title{
+    text-align: center;
+    color: white;
+}
+.container__cards{
+    width: 80%;
+    margin: 0 auto;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card{
+    background: white;
+    width: 30%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--sombra);
+}
+.card__picture{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card__copy{
+    text-decoration: underline;
+    margin: 10px 0;
+}
+.ctas{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cta{
+    display: inline-block;
+    width: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.336);
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #5871ff;
+    transition: background-color, width 0.3s;
+}
+.cta:hover{
+    background: white;
+    color: #5871ff;
+    width: 70%;
+    transition: 0.3s;
+}
+.cta--completo:hover{
+    width: 100%;
+}
+.cta--tres:hover{
+    width: 40%;
+}
+.cta--cuatro{
+    width: 20%;
+}
+.cta--cuatro:hover{
+    width: 33%;
+}

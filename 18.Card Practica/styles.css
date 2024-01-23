@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-price: #26295A;
+    --color-carac: #9C9191;
+    --color-boton: #fff;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(360deg, var(--color-price)50%, #fff 50%); 
+}
+.card__item{
+    max-width: 350px;
+    width: 30%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)  ;
+    text-align: center;
+    padding: 40px 0;
+    background: white;
+    border-radius: 20px;
+}
+.card__item--active{
+    background: #5175ff;
+    --color-price: #FFF;
+}
+
+.card__plan{
+    color: var(--color-price);
+    margin-bottom: 20px;
+}
+.card__precio{
+    font-size: 40px;
+    font-size: 3rem; 
+    color: var(--color-price);
+}
+.card__carac{
+    color: var(--color-carac);
+    margin-bottom: 25px;
+}
+.card__item .card__cta{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--color-boton);
+    padding: 10px 40px;
+    background: var(--color-price);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.card__item--active .card__cta{
+    text-decoration: none;
+    display: inline-block;
+    color: #26295A;
+    padding: 10px 40px;
+    background: var(--color-boton);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.card__item--active .card__carac{
+    color: #FFF;
+}
+.card__carac--margin{
+    margin: 30px 0 50px;
+}
+@media screen and (max-width:655px) {
+    .card__item{
+        width: 40%;
+        
+    }
+}
+@media screen and (max-width:626px) {
+    .card__item{
+        width: 70%;
+        margin: 40px 0;
+    }
+}
+@media screen and (max-width:571px) {
+    .card__item{
+        width: 70%;
+        margin: 40px 0;
+    }
+}
+@media screen and (max-width:500px) {
+    .card__item{
+        width: 70%;
+        margin: 40px 0;
+    }
+}
+@media screen and (max-width:375px) {
+    .card__item{
+        width: 85%;
+        margin: 40px 0;
+    }
+}
+@media screen and (max-width:347px) {
+    .card__item{
+        width: 85%;
+        margin: 40px 0;
+    }
+}

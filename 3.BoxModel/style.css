@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 400px;
+    height: 150px;
+}
+.header{
+    margin-top: 80px;
+    background: gold;
+    height: 40px;
+}
+.box1{
+    height: 200px;
+    padding: 0.1px;
+    width: 100%;
+    background-color: steelblue;
+   /* margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    /* margin: 50px 30px 20px 20px;*/
+}
+
+.box2{
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 50px;
+    background-color: brown;
+    color: #fff;
+    padding: 20px;
+}

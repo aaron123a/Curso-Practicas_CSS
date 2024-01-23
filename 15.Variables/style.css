@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color1: crimson;
+    --box-shadow:6px 6px 10px rgba(153, 6, 6, 0.733);
+    --gradient: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    min-height: 100vh;
+}
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: var(--gradient)
+}
+.card{
+    background: white;
+    width: 300px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    box-shadow: var(--box-shadow);
+}
+.card__title{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: var(--color1);
+}
+.card_cta{
+    display: inline-block;
+    margin-top: 20px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.card2{
+    background: white;
+    width: 300px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    box-shadow: var(--box-shadow);
+}
+.card2__title{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #864AF9;
+}

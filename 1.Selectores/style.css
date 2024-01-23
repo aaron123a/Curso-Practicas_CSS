@@ -1,0 +1,35 @@
+h2{
+    color: midnightblue;
+}
+
+.nave{
+    border: 1px solid black
+}
+#section{
+    border: 1px solid black;
+}
+.titulo{
+    text-align: center;
+}
+.parrafo{
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+[href]{
+    text-decoration: none;
+}
+[href="https://inicio.com"]{
+    color: red;
+}
+[href^="hsttps"]{
+    color: green;
+}
+[href$="org"]{
+    background-color: steelblue;
+    color: white;
+}
+[href*="//G"]{
+    background-color: blueviolet;
+    color: white;
+}

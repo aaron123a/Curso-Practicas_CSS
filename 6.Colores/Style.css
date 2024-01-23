@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+padding: 20px 0;
+background: hsl(50, 40%, 20%);
+color: white;
+}
+.title{
+    text-align: center;
+}

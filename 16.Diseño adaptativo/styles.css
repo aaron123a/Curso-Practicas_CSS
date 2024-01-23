@@ -1,0 +1,31 @@
+:root{
+    --color: crimson;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 3rem;
+    color: var(--color);
+    margin: 40px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media print{
+    .title{
+        color: steelblue;
+        font-size: 5rem;
+        text-align: left;
+        font-family: cursive;
+
+    }
+}
+@media screen and (max-width:600px){
+    .title{
+        background: black;
+        color: wheat;
+    }
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+} 
+nav{
+    height: 70px;
+    background: rgb(106, 98, 255);
+}
+.nav-content{
+    height: 100%;
+    align-items: center; 
+    justify-content: flex-end;
+}
+.enlaces{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 100% 30px;
+    display: inline-block;
+    
+}
+.enlaces:hover{
+    color: #143d64;;
+    background: white;
+    transition: 0.3s;
+}
+.principal{
+    height: calc(100vh - 70px);
+    align-items: center;
+    justify-content: space-between;
+}
+.ilustracion{
+    flex-basis: 50%;
+}
+.contenedor-textos{
+    flex-basis: 45%;
+}
+.titulo{
+    font-size: 48px;
+    font-weight: 700;
+}
+.copy{
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 24px;
+}
+.cta{
+    display: inline-block;
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 16px 30px;
+    border-radius: 30px;
+}
+.cta:hover{
+    background: rgba(0, 0, 0, 0.801);
+    transition: 0.3s;
+}
+
+@media screen and (max-width:1092px){
+    .principal{
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 40px;
+    }
+    .ilustracion{
+        flex-grow: 1;
+        max-width: 95%;
+    }
+    .contenedor-textos{
+        width: 100%;
+        flex-basis: 40%;
+        order: 1;
+    }
+}
+@media screen and (max-width:768px){
+    .nav-content{
+        justify-content: space-evenly;
+    }
+    .enlaces{
+        margin: 0;
+    }
+    .principal{
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 40px;
+    }
+    .ilustracion{
+        flex-grow: 1;
+        max-width: 95%;
+    }
+    .contenedor-textos{
+        width: 100%;
+        flex-basis: 40%;
+        order: 1;
+    }
+}
+@media screen and (max-width:500px){
+    .contenedor-textos{
+        text-align: center;
+    }
+    .titulo{
+        font-size: 33px;
+    }
+    .copy{
+        font-size: 20px;
+    }
+}

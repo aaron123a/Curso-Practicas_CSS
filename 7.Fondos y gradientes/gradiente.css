@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    background: cadetblue;
+    background-image: linear-gradient(red 5%, gold 20%);
+    box-shadow: 5px 5px 20px -5px;
+    /*background-image: linear-gradient(Direccion, color stop, color stop);*/
+}
+.header{
+    background-image: linear-gradient(rgba(0, 0, 139, 0.534), rgb(70, 131, 180)), url(/img/miniatura.jpg);
+    height: 1200px;
+    padding: 0.1px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 700px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
